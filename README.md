@@ -13,15 +13,15 @@
 ## Структура проекта
 ```
 Masterskaya_heart_atack
-├── saved_models/   # *папка с обученными объектами из analysis_and_machine_learning.ipynb*
-│   ├── data_preprocessor.pkl   # *обученный препроцессор*
-│   └── model_with_threshold.pkl    # *обученная модель с настроенным порогом классификации*
+├── saved_models/ # папка с обученными объектами из analysis_and_machine_learning.ipynb
+│   ├── data_preprocessor.pkl   # обученный препроцессор
+│   └── model_with_threshold.pkl    # обученная модель с настроенным порогом классификации
 ├── .gitignore
-├── README.md   # *описание проекта*
-├── analysis_and_machine_learning.ipynb # *исследование проекта и обучение моделей*
-├── classes.py  # *файл с классами для сервиса на FastAPI*
-├── main.py # *файл сервиса на FastAPI*
-└── test_data_predict.csv   # *файл с прогнозом модели*
+├── README.md   # описание проекта
+├── analysis_and_machine_learning.ipynb # исследование проекта и обучение моделей
+├── classes.py  # файл с классами для сервиса на FastAPI
+├── main.py # файл сервиса на FastAPI
+└── test_data_predict.csv   # файл с прогнозом модели
 ```
 
 ## Установка и запуск сервиса FastAPI
