@@ -1,2 +1,5 @@
 # Folders
 data/
+__pycache__
+.ipynb_checkpoint
+.virtual_documents
