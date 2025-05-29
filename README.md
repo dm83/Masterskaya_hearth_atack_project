@@ -12,6 +12,7 @@ Heart Attack Prediction with FastAPI Interface
  * Экспорт результатов в удобном формате (CSV, JSON)
 
 ## Структура проекта
+```
 Masterskaya_heart_atack
 ├── saved_models/   # *папка с обученными объектами из analysis_and_machine_learning.ipynb*
 │   ├── data_preprocessor.pkl   # *обученный препроцессор*
@@ -22,6 +23,7 @@ Masterskaya_heart_atack
 ├── classes.py  # *файл с классами для сервиса на FastAPI*
 ├── main.py # *файл сервиса на FastAPI*
 └── test_data_predict.csv   # *файл с прогнозом модели*
+```
 
 ## Установка и запуск сервиса FastAPI
 1) uvicorn main:app --reload
