@@ -51,6 +51,6 @@ async def predict(file: UploadFile = File(..., description="CSV файл с те
         # если что-то не так -> сообщение с ошибкой
         raise HTTPException(status_code=500, detail=f"Ошибка при предсказании: {e}")
 
-    # Формируем ответ — например, список предсказаний
+    # формируем ответ
     result = final_df.to_dict(orient='records')
     return {"predictions": result}
