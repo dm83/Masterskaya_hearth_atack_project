@@ -1,5 +1,4 @@
-## Название проекта
-Heart Attack Prediction with FastAPI Interface
+# Heart Attack Prediction with FastAPI Interface
 
 ## Краткое описание
 Проект реализует модель машинного обучения для предсказания риска инфаркта на основе медицинских данных.
