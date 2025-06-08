@@ -21,6 +21,7 @@ Masterskaya_heart_atack
 ├── analysis_and_machine_learning.ipynb # исследование проекта и обучение моделей
 ├── classes.py  # файл с классами для сервиса на FastAPI
 ├── main.py # файл сервиса на FastAPI
+├── requirements.txt # файл с настройками окружения
 └── test_data_predict.csv   # файл с прогнозом модели
 ```
 

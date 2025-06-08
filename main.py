@@ -4,7 +4,7 @@ from fastapi import FastAPI, HTTPException, UploadFile, File
 import joblib
 import pandas as pd
 
-# экземпляр класса FastAPI [terminal input: "uvicorn main:app --reload"]
+# экземпляр класса FastAPI [terminal input: "python -m uvicorn main:app --reload"]
 app = FastAPI()
 
 # экспорт классов для создания экземпляров
